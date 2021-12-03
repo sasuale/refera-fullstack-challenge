@@ -44,6 +44,8 @@ We use React and Django in our real application, feel comfortable to chose the a
 ## Challenge guidelines
 
 - The usage of git will be taken into consideration on the evaluation
-- For this challenge, **Create** a **private** repository in your Github account
+- For this challenge, **Create** a repository in your Github account
+- You can create a private repository in your account if you want
 - Share your repository with email: suporte@refera.com.br
+- Send a email with the link of your repository to: suporte@refera.com.br
 - Remenber, all the written information requested on **Acceptance criteria** should be added on a README.md file inside the your repository
