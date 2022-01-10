@@ -16,3 +16,6 @@ Para a implementação de uma camada de autenticação para a aplicação web, u
 
 Neste sistema teremos uma base de dados relacional, onde teremos três tabelas, nomeadamente categorias, empresas e encomendas, nas quais a tabela de encomendas estará relacionada com as duas tabelas (categorias e empresas).
 
+## Tela em Destaque
+
+![Screenshot from 2022-01-10 14-13-21](https://user-images.githubusercontent.com/32305442/148764987-07eb5729-8a02-47c2-8d43-74c177513955.png)
