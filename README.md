@@ -19,3 +19,34 @@ Neste sistema teremos uma base de dados relacional, onde teremos três tabelas, 
 ## Tela em Destaque
 
 ![Screenshot from 2022-01-10 14-13-21](https://user-images.githubusercontent.com/32305442/148764987-07eb5729-8a02-47c2-8d43-74c177513955.png)
+
+## Endpoint
+
+Default Link: ``` http://127.0.0.1:8000/ ```
+
+# Categorias
+- Atributos: (name, tag, description)
+[METODO]: [SOURCE]
+Get: api/list-category
+Post: api/store-category
+Get: api/edit-category/:id
+Put: api/update-category/:id
+Delete: api/delete-category/:id
+
+# Empresas
+- Atributos: (name, tag, description)
+[METODO]: [SOURCE]
+Get: api/list-company
+Post: api/store-company
+Get: api/edit-company/:id
+Put: api/update-company/:id
+Delete: api/delete-company/:id
+
+# Encomendas
+- Atributos: (contact_name, contact_phone, real_estate, description, deadline, company_id, category_id)
+[METODO]: [SOURCE]
+Get: api/list-order
+Post: api/store-order
+Get: api/edit-order/:id
+Put: api/update-order/:id
+Delete: api/delete-order/:id
