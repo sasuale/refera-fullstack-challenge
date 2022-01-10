@@ -26,27 +26,27 @@ Default Link: ``` http://127.0.0.1:8000/ ```
 
 # Categorias
 - Atributos: (name, tag, description)
-[METODO]: [SOURCE]
-Get: api/list-category
-Post: api/store-category
-Get: api/edit-category/:id
-Put: api/update-category/:id
-Delete: api/delete-category/:id
+    - [METODO]: [SOURCE]
+    - Get: ``` api/list-category ```
+    - Post: ``` api/store-category ```
+    - Get: ``` api/edit-category/:id ```
+    - Put: ``` api/update-category/:id ```
+    - Delete: ``` api/delete-category/:id ```
 
 # Empresas
 - Atributos: (name, tag, description)
-[METODO]: [SOURCE]
-Get: api/list-company
-Post: api/store-company
-Get: api/edit-company/:id
-Put: api/update-company/:id
-Delete: api/delete-company/:id
+    - [METODO]: [SOURCE]
+    - Get: ``` api/list-company ```
+    - Post: ``` api/store-company ```
+    - Get: ``` api/edit-company/:id ```
+    - Put: ``` api/update-company/:id ```
+    - Delete: ``` api/delete-company/:id ```
 
 # Encomendas
 - Atributos: (contact_name, contact_phone, real_estate, description, deadline, company_id, category_id)
-[METODO]: [SOURCE]
-Get: api/list-order
-Post: api/store-order
-Get: api/edit-order/:id
-Put: api/update-order/:id
-Delete: api/delete-order/:id
+    - [METODO]: [SOURCE]
+    - Get: ``` api/list-order ```
+    - Post: ``` api/store-order ```
+    - Get: ``` api/edit-order/:id ```
+    - Put: ``` api/update-order/:id ```
+    - Delete: ``` api/delete-order/:id ```
