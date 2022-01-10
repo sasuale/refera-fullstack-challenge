@@ -26,7 +26,7 @@ Default Link: ``` http://127.0.0.1:8000/ ```
 
 # Categorias
 - Atributos: (name, tag, description)
-    - [METODO]: [SOURCE]
+    - ["METODO"]: ["SOURCE"]
     - Get: ``` api/list-category ```
     - Post: ``` api/store-category ```
     - Get: ``` api/edit-category/:id ```
@@ -35,7 +35,7 @@ Default Link: ``` http://127.0.0.1:8000/ ```
 
 # Empresas
 - Atributos: (name, tag, description)
-    - [METODO]: [SOURCE]
+    - ["METODO"]: ["SOURCE"]
     - Get: ``` api/list-company ```
     - Post: ``` api/store-company ```
     - Get: ``` api/edit-company/:id ```
@@ -44,7 +44,7 @@ Default Link: ``` http://127.0.0.1:8000/ ```
 
 # Encomendas
 - Atributos: (contact_name, contact_phone, real_estate, description, deadline, company_id, category_id)
-    - [METODO]: [SOURCE]
+    - ["METODO"]: ["SOURCE"]
     - Get: ``` api/list-order ```
     - Post: ``` api/store-order ```
     - Get: ``` api/edit-order/:id ```
