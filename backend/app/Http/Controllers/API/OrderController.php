@@ -4,6 +4,7 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use App\Models\Order;
+use App\Models\Company;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -53,13 +54,17 @@ class OrderController extends Controller
         }
         else
         {
+            $company = new Company;
+            $company->name = $request->company_id;
+            $company->save();
+
             $order = new Order;
             $order->contact_name = $request->contact_name;
             $order->contact_phone = $request->contact_phone;
             $order->real_estate = $request->real_estate;
             $order->description = $request->description;
             $order->deadline = $request->deadline;
-            $order->company_id = $request->company_id;
+            $order->company_id = $company->id;
             $order->category_id = $request->category_id;
             $order->save();
 
